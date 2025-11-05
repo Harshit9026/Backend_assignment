@@ -1,0 +1,18 @@
+{
+  "name": "menu-management-api",
+  "version": "1.0.0",
+  "description": "Node.js backend server for menu management",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build successful\""
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.78.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  }
+}
