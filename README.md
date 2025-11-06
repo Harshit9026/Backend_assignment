@@ -29,38 +29,29 @@ Testing | Postman |
 ### 1️⃣ Clone Repo
 ```bash
 git clone <your-repo-url>
-cd menu-backend
+cd project
 2️⃣ Install Dependencies
-bash
-Copy code
 npm install
+
 3️⃣ Setup .env
 Create .env file:
-
-ini
-Copy code
 SUPABASE_URL=your_supabase_url
 SUPABASE_ANON_KEY=your_supabase_key
 PORT=3000
-⚠️ Do NOT expose your real Supabase keys in GitHub.
 
 4️⃣ Run Server
-bash
-Copy code
-npm start
+node index.js
 Server runs on:
 http://localhost:3000
 
 📁 Folder Structure
-bash
-Copy code
 src/
  ├─ config/        # Supabase client
  ├─ routes/        # API routes
  ├─ controllers/   # Business logic
  ├─ services/      # DB queries
  ├─ utils/
-app.js / server.js
+app.js / index.js
 .env
 package.json
 README.md
@@ -109,12 +100,6 @@ Copy code
   "discount": 20,
   "total_amount": 180
 }
-
-🤝 Contributing
-PRs are welcome — open an issue first for major changes!
-
-📄 License
-MIT
 
 👤 Author
 Harshit Shukla
